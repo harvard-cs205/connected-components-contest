@@ -1,5 +1,11 @@
 # Harvard CS205 Connected Components
 
+## Results
+
+| Submission        | Author           | Time (secs) |
+| ------------- |:-------------:| -----:|
+| LameDefault   | Ray           | 20.13
+
 ## To get started
 Clone this repository.
 
@@ -12,16 +18,13 @@ preprocess_to_npz.py.  Self-links have been removed.
 
 You can run the code with "python connected.py".
 
+## To submit new algorithms
 To submit a new algorithm, send mail to staff@cs205.org with your new
 .pyx file.  You can use any OpenMP constructs you would like to.  If
 you need AVX (or some other build change), contact us, we will discuss.
 
 Times will be collected on Ray's laptop (MacBook Air, Intel Core i7,
 1.7 GHz, 2 cores, 4 hardware threads).  We'll run through the data 10
-times (as in connected.py), and report the total time.
+times (as in connected.py), and report the total time, above.
 
-Results will be posted here, updated as new submissions arrive.
-
-| Submission        | Author           | Time (secs) |
-| ------------- |:-------------:| -----:|
-| LameDefault   | Ray           | 20.13
+Be sure to give your submission a catchy name.
