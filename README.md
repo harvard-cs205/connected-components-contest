@@ -1,10 +1,10 @@
 # Harvard CS205 Connected Components
 
-## Results
+## Results (Wikipedia dataset)
 
 | Submission        | Author           | Time (secs) |
 | ------------- |:-------------:| -----:|
-| LameDefault   | Ray           | 20.13
+| LameDefault   | Ray           | 16.6
 
 ## To get started
 Clone this repository.
@@ -23,8 +23,11 @@ To submit a new algorithm, send mail to staff@cs205.org with your new
 .pyx file.  You can use any OpenMP constructs you would like to.  If
 you need AVX (or some other build change), contact us, we will discuss.
 
-Times will be collected on Ray's laptop (MacBook Air, Intel Core i7,
-1.7 GHz, 2 cores, 4 hardware threads).  We'll run through the data 10
-times (as in connected.py), and report the total time, above.
+Times will be collected on dual Xeon machine (X5550, 2.67GHz, 4 cores
+each, 2 hardware threads per core, 16-threads total).  We'll run
+through the data 10 times (as in connected.py), and report the total
+time, above.
+
+We may use other datasets, in the future.
 
 Be sure to give your submission a catchy name.
